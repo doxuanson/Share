@@ -26,7 +26,7 @@ keystonefile=/etc/keystone/keystone.conf
 #
 ops_del $keystonefile database connection
 ops_add $keystonefile database \
-connection = mysql+pymysql://keystone:$KEYSTONE_DBPASS@controller/keystone
+connection mysql+pymysql://keystone:$KEYSTONE_DBPASS@controller/keystone
 
 ops_add $keystonefile token provider fernet
 
