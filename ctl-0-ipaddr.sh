@@ -28,7 +28,7 @@ iface lo inet loopback
 # external network interface
 auto $CTL_EXT_IF
 iface $CTL_EXT_IF inet static
-address $CTL_EXT_IP inet static
+address $CTL_EXT_IP
 netmask $CTL_EXT_NETMASK
 gateway $GATEWAY_EXT_IP
 dns-nameserver 8.8.8.8
@@ -36,7 +36,7 @@ dns-nameserver 8.8.8.8
 # internal network interface
 auto $CTL_MGNT_IF
 iface $CTL_MGNT_IF inet static
-address $CTL_MGNT_IP inet static
+address $CTL_MGNT_IP
 netmask $CTL_MGNT_NETMASK
 EOF
 
