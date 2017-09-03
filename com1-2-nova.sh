@@ -13,7 +13,7 @@ apt install nova-compute -y
 novafile=/etc/nova/nova.conf
 novafilebak=/etc/nova/nova.conf.bak
 cp $novafile $novafilebak
-egrep -v "^$|^#" novafilebak > novafile
+egrep -v "^$|^#" $novafilebak > $novafile
 
 ops_add $novafile DEFAULT \
 	transport_url rabbit://openstack:$NOVA_DBPASS@controller
