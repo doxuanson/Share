@@ -13,7 +13,7 @@
 
 
 
-## 4.1.Mô- h.ình : fg
+## 4.1.MÔ- h.ìn _h : fg
 <img src="../images/cai-dat-cobbler-centos7-1.png" />
 
 \- Bài lab thực hiện trên server cài đặt ảo hóa qemu-kvm với Cobbler, Client 1 và Client 2 là các máy ảo.  
